@@ -30,6 +30,7 @@ set(config_module_list
 	drivers/sf0x
 	drivers/ll40ls
 	drivers/trone
+    drivers/evo
 	drivers/gps
 	drivers/pwm_out_sim
 	#drivers/hott

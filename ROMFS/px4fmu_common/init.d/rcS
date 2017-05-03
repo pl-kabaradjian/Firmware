@@ -804,6 +804,12 @@ then
 		fi
 	fi
 
+    # teraranger evo tof sensor
+ 	if param compare SENS_EN_TREVO 1
+ 	then
+ 		trevo start
+ 	fi
+
 	if ver hwcmp PX4FMU_V4
 	then
 		frsky_telemetry start -d /dev/ttyS6

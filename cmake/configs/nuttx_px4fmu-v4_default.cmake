@@ -28,6 +28,7 @@ set(config_module_list
 	drivers/sf1xx
 	drivers/ll40ls
 	drivers/trone
+    drivers/trevo
 	drivers/gps
 	drivers/pwm_out_sim
 	drivers/hott
